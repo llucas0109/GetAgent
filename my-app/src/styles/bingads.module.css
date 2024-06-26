@@ -1,0 +1,16 @@
+.main_area{
+  width: 100vw;
+  height: 100%;
+  background-color: #0D0F18;
+}
+.elementor-html5-video{
+  width: 1191.11px; 
+  height: 670px;
+}
+.StillvideoWord{
+  position: absolute;
+}
+.videoWord{
+  height: 717.75px;
+  object-fit: cover;
+}  

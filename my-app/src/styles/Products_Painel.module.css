@@ -1,0 +1,70 @@
+
+
+@media screen and (min-width: 990px){
+  .Painel{
+    width: 600px;
+    height: 500px;
+    margin: 300px auto 0px auto;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Painel_Products > li{
+    list-style: none;
+    width: 200px;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #000;
+    z-index: 5;
+  }
+  .Painel_Products > ul{
+    z-index: 100;
+  }
+  .Painel_Products{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    width: 100%;
+    height: 400px;
+  }
+  .Carrousel {
+    width: 100%;
+  }
+  .Carrousel > div > div > ul > li{
+    max-width:150px;
+  }
+  .Carrousel > div > ul{
+    display: none;
+  }
+  
+  .Carrousel > div {
+    
+  }
+  .Carrousel ul li:focus{
+    box-shadow: 0 0px 2px 2px red;
+    animation: none;
+  }
+  .Carrousel ul li{
+    background-color: black;
+    border: 1px solid #000;
+    box-shadow: 0 0px 2px 2px red;
+    animation: brilho 3.5s infinite;
+    border-radius: 7px;
+    list-style: none;
+    margin: 10px 10px 10px 10px;
+  }
+  @keyframes brilho {
+    0% {
+        box-shadow: 0 0 1px red, 0 0 2px red, 0 0 3px red, 0 0 4px red;
+    }
+    50% {
+        box-shadow: 0 0 2px red, 0 0 3px red, 0 0 4px red, 0 0 5px red;
+    }
+    100% {
+        box-shadow: 0 0 1px red, 0 0 2px red, 0 0 3px red, 0 0 4px red;
+    }
+  }
+
+}
